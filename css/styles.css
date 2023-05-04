@@ -1,0 +1,40 @@
+:root {
+    --Blanco: #FFFFFF;   
+    --Oscuro: #212121;
+    --Primario: #FFC110;
+    --Secundario: #0097a7; 
+    --Gris: #757575;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;/* 1Rem = 10Px*/
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;   
+}
+.titulo span{
+    font-size: 2rem;
+}
+
+.contenedor{
+width: 120rem;
+margin: 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--Secundario);
+    padding: 1rem;
+}
+.navegacion-principal a{
+color: var(--Blanco);
+text-decoration: none;
+}
