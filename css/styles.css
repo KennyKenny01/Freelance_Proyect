@@ -132,7 +132,8 @@ border-radius: 1rem;
 .servicios {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-column-gap: 1rem;
+column-gap: 3rem;
+text-align: justify;
 }
 }
 .servicio{
