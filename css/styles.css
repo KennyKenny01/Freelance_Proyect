@@ -11,7 +11,13 @@ html{
     font-size: 62.5%;
     /**Lo de abajo es un sniper para no sumar los px de height con el padding*/
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
 }
+/*Scrool snap*/
+.servicios, .navegacion-principal, .formulario  {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    }
 *, *::before, *::after {
     box-sizing: inherit;
 }
